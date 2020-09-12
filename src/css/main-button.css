@@ -1,0 +1,31 @@
+.main-button {
+  /* color: white; */
+  min-width: 160px;
+  /* background: linear-gradient(-45deg, #ff8a00, #e52e71); */
+  /* background: radial-gradient(#ff8a00, #e52e71); */
+  /* background: linear-gradient(rgb(43,194,83) 37%, rgb(84,240,84) 69%); */
+  /* background: #555; */
+  /* border-radius: 10px; */
+  font-size: 1em;
+  cursor: pointer;
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.1em solid #000000;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-weight:300;
+  color:#000000;
+  text-align:center;
+  transition: all 0.2s;
+  height: 5em;
+}
+.main-button:hover {
+  color:#ffffff;
+  background-color:#000000;
+}
+.main-button:active {
+  color:#BBBBBB;
+  border-color:#BBBBBB;
+}
